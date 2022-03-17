@@ -47,6 +47,12 @@
 
 <script>
 export default {
-  name: 'NuxtTutorial'
+  name: 'NuxtTutorial',
+  head: {
+    title: 'Esta es mi página de inicio',
+    meta: [
+      {hid: 'description', name: 'description', content: 'Esta es la descripcion de mi página de Inicio'}
+    ]
+  }
 }
 </script>
